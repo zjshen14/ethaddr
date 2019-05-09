@@ -15,6 +15,7 @@ var numThreads int
 func init()  {
 	flag.IntVar(&numZeros, "num-zeros", 1, "Number of zero bytes at the end of address")
 	flag.IntVar(&numThreads, "num-threads", 4, "Number of threads to mine")
+	flag.Parse()
 }
 func main() {
 	done := make(chan interface{})
