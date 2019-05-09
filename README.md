@@ -2,7 +2,7 @@
 
 ```
 go build
-./ethaddr -num-zero [1-20]
+./ethaddr -num-zeros [1-20]
 ```
 
 Good luck!
